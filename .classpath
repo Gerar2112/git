@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/geard/Desktop/libreria/conversion.jar"/>
 	<classpathentry kind="lib" path="C:/Users/geard/Desktop/libreria/medidas.jar"/>
+	<classpathentry kind="lib" path="C:/libjava/git/libreriaUnidadesPeso.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

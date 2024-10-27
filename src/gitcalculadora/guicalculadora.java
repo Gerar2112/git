@@ -172,6 +172,9 @@ import java.awt.Color;
 			btnNewButton.setBackground(new Color(0, 170, 0));
 			btnNewButton.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
+					
+					masa ma = new masa();
+					ma.setVisible(true);
 				}
 			});
 			contentPane.add(btnNewButton);
@@ -320,7 +323,8 @@ import java.awt.Color;
 			});
 			contentPane.add(btnTemperatura);
 			
-			JButton btnNewButton_1 = new JButton("New button");
+			JButton btnNewButton_1 = new JButton("Medidas");
+			btnNewButton_1.setFont(new Font("Poor Richard", Font.BOLD, 16));
 			btnNewButton_1.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					
@@ -329,7 +333,7 @@ import java.awt.Color;
 					
 				}
 			});
-			btnNewButton_1.setBounds(16, 184, 89, 23);
+			btnNewButton_1.setBounds(16, 174, 89, 41);
 			contentPane.add(btnNewButton_1);
 		}
 
